@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Model of the Solar System</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Solar_Style.css"/>
+        <link rel="stylesheet" href="Sidebar_Style.css"/>
+        <script type="text/javascript" src="jQuery.js"></script>
+        <script type="text/javascript" src="Sidebar-animations.js"></script>
+        <script type="text/javascript" src="Solar_script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="solar-system-container">
+                <div class="orbit" id="sun-orbit">
+                    <div class="planet" id="asteroid-belt"></div>
+                    <div class="counterorbit" id="mercury-counterorbit">
+                        <div class="orbit" id="mercury-orbit">
+                            <div class="planet" id="mercury"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="venus-counterorbit">
+                        <div class="orbit" id="venus-orbit">
+                            <div class="planet" id="venus"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="mars-counterorbit">
+                        <div class="orbit" id="mars-orbit">
+                            <div class="planet" id="mars"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="jupiter-counterorbit">
+                        <div class="orbit" id="jupiter-orbit">
+                            <div class="planet" id="jupiter"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="saturn-counterorbit">
+                        <div class="orbit" id="saturn-orbit">
+                            <div class="planet" id="saturn-ring"></div>
+                            <div class="planet" id="saturn"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="uranus-counterorbit">
+                        <div class="orbit" id="uranus-orbit">
+                            <div class="planet" id="uranus"></div>
+                            <div class="planet" id="uranus-ring" style="height: 20px; width: 20px;"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="neptune-counterorbit">
+                        <div class="orbit" id="neptune-orbit">
+                            <div class="planet" id="neptune"></div>
+                            <div class="planet" id="neptune-ring" style=""></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="halley-counterorbit">
+                        <div class="planet" id="halley"></div>
+                    </div>
+                    <div class="counterorbit" id="ikeya-counterorbit">
+                        <div class="ikeya" id="ikeya-orbit">
+                            <div class="planet" id="ikeya"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="ceres-counterorbit">
+                        <div class="orbit" id="ceres-orbit">
+                            <div class="planet" id="ceres"></div>
+                        </div>
+                    </div>
+                    <div class="counterorbit" id="vesta-counterorbit">
+                        <div class="orbit" id="vesta-orbit">
+                            <div class="planet" id="vesta"></div>
+                        </div>
+                    </div>
+                    <div class="planet" id="sun"></div>
+                </div>
+                <div class="planet" id="earth"></div>
+                <div id="name"><p>Steven Jin</p></div>
+            </div>
+            <div id="sidebar">
+                <div id="content">
+                    <table id="content-table">
+                        <tbody>
+                            <tr>
+                                <td id="sb-overview">
+                                    <h1 style="margin: 0px;">Overview</h1>
+                                    <img id="" href="" />
+                                    <p>This is an animation/model of our solar system showing the movement of the sun, planets and some asteroids and comets relative to the Earth. The distance between planets is not to scale, but the size of planets are with the exception of the sun as it is to massive. The velocities of the planets, asteroids and comets are also estimates. Hover over the names of the bodies  to only show that body and the Earth, click on them for more info.</p>
+                                <p id="comment">Some of the comets might not be visible due to them being off screen.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-sun">
+                                    <h1>Sun</h1>
+                                    <img id="" src="Sun.jpg" />
+                                    <p>For many of us the sun has a semi-constant presence, only disapating at night. Its presence depends on one's longitude. the closer one is to either pole, the more sunlight one will recieve during the summer and less during the winter. We see the Sun as the brightest and largest object in the sky and on average the earth is 150 million kilometers away from the sun. That distance is key to life on earth, if the Earth were any closer we would all burn, and if we were further we would all freeze.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-mercury">
+                                    <h1>Mercury</h1>
+                                    <img id="" src="mercury.jpg" />
+                                    <small>The object on the very bottom is Mercury</small>
+                                    <br>
+                                    <p>Mercury is the hardest planet to spot of the five that can be spotted with the naked eye. The closest it can be from the earth would be around 92 million kilometers and the furthest it can be would be 206 million kilometers</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-venus">
+                                    <h1>Venus</h1>
+                                    <img src="Venus.jpg">
+
+                                    <p>Venus is the second brightest object in the sky. It is 100,000,00km away from the sun, the closest it can be from earth would be 40 million km and the furthest away would be 256 million kilometers.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-earth">
+                                    <h1>Earth</h1>
+                                    <div class="orbit-container" id="earth2-orbit-container">
+                                        <div class="orbit" id="earth2-orbit">
+                                            <div class="sb-planet" id="moon"></div>
+                                            <div class="sb-planet" id="earth2"></div>
+                                        </div>
+                                    </div>
+                                    <br><br><br><br><br><br><br><br><br>
+                                    <p>Earth is our home planet with a single known natural satellite, the Moon. The Moon completes one full rotation every 27 days and is on average around 384 thousand kilometers away from the Earth. The Moon is essential to the Earth as it ceates tides using its gravitational pull and regulates climate by slowing down Earth's rotation.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-mars">
+                                    <h1>Mars</h1>
+                                    <img id="" src="Mars.jpg" />
+                                    <small>The white dot that looks like a piece of dust to the bottom right of the moon.</small>
+                                    <p>Mars is the second hardest planet to spot of the five visible to the naked eye. The closest it can be to the Earth would be 78 million kilometers and the furthest would be 378 million kilometers.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-vesta">
+                                    <h1>Vesta</h1>
+                                    <img id="" src="vesta.jpg" />
+                                    <p>Vesta is the brightest  asteroid in our solar system. The closest it would be to the Earth would be around 200 million kilometers and the furthest would be 490 millionk kilometers.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-ceres">
+                                    <h1>Ceres</h1>
+                                    <img id="" src="Ceres.jpg" />
+                                    <p>Ceres is the largest known asteroid in the asteroid belt. The closest to the Earth it can be would be 263 million kilometers and the furthest would be 563 million kilometers.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-jupiter">
+                                    <h1 style="">Jupiter</h1>
+                                    <img id="" src="Jupiter.png" />
+                                    <p>Jupiter is the largest planet in our solar system and one of the most imporant ones. Due to how close it is to the Sun and its sheer mass, it creates a gravitational field so strong that it flings meteors out of their potential path towards the Earth. The closest it can be to Earth would be 628 million kilometers and the furthest it can be would be 928 million kilometers. Jupiter is also the furthest of the five planets that can be seen with the naked eye.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-saturn">
+                                    <h1>Saturn</h1>
+                                    <img id="" src="Saturn.jpg" />
+                                    <p>Saturn is the first gas giant that requires a telescope to be seen. The closest it can be from the Earth would be 1293 million kilometers and the furthest would be 1594 million kilometers, that's pretty far.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-uranus">
+                                    <h1>Uranus</h1>
+                                    <img id="" src="Uranus.jpg" />
+                                    <small>Top left</small>
+                                    <p>Uranus is one of the furthest planets from the Sun and the Earth. The closest it could be from the Earth would be around 2650 million kilometers and the furthest would be 2950 million kilometers.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-neptune">
+                                    <h1>Neptune</h1>
+                                    <img id="" src="neptune.png" />
+                                    <small></small>
+                                    <p>Neptune is the furthest planet from the Sun in our solar sytem, it is 30.7 times further away from the Sun than we are. The closest it could be from the Earth would be 4350 million kilometers while the furthest would be 4650 million kilometers.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-halleys">
+                                    <h1>Halley's Comet</h1>
+                                    <img id="" src="halleys.png" />
+                                    <p>Halley's Comet is one of the worlds most famous comets. First observed and recorded by the Chinese in 239 BC, it comes back every 75-76 years. Halley's Comet was identified by astronomer Edmond Halley; after examining 3 seperate comet reports, he concluded that they were the same one. The last sighting of Halleys' comet was in 1986 and the next one will be in 2061.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="sb-ikeya">
+                                    <h1>Ikeya-Zhang</h1>
+                                    <img id="" src="ikeya.jpg" />
+                                    <p>Comet Ikeya-Zhang is a comet that was discovered without the use of automated computers in 2002 by two ameteur astronomers, Kaoru Ikeya, in Japan and Daqing Zhang in China. It has one of the longest orbits known to us, around 341 years. The most recent observation was in 2002 and the next one will be in 2343.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table id="navbar">
+                    <tbody>
+                        <tr>
+                            <td id="nb-mercury"><a href="#sb-mercury">Mercury</a></td>
+                            <td id="nb-venus"><a href="#sb-venus">Venus</a></td>
+                            <td id="nb-earth"><a href="#sb-earth">Earth</a></td>
+                            <td id="nb-mars"><a href="#sb-mars">Mars</a></td>
+                        </tr>
+                        <tr>
+                            <td id="nb-vesta"><a href="#sb-vesta">Vesta</a></td>
+                            <td id="nb-ceres"><a href="#sb-ceres">Ceres</a></td>
+                            <td id="nb-jupiter"><a href="#sb-jupiter">Jupiter</a></td>
+                            <td id="nb-saturn"><a href="#sb-saturn">Saturn</a></td>
+                        </tr>
+                        <tr>
+                            <td id="nb-uranus"><a href="#sb-uranus">Uranus</a></td>
+                            <td id="nb-neptune"><a href="#sb-neptune">Neptune</a></td>
+                            <td id="nb-halleys"><a href="#sb-halleys">Halley's</a></td>
+                            <td id="nb-ikeya"><a href="#sb-ikeya">Ikeya-Zhang</a></td>
+                        </tr>
+                        <tr>
+                            <td id="nb-overview" colspan="2"><a href="#sb-overview">Overview</a></td>
+                            <td id="nb-sun" colspan="2"><a href="#sb-sun">Sun</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </body>
+</html>

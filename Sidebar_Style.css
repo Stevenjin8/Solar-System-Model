@@ -1,0 +1,308 @@
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+table, tbody, tr {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    height: auto;
+    width: 480px;
+    margin-bottom: 0px;
+    display: block;
+    float: left;
+    margin-top: 0px;
+}
+
+#container {
+    height: 100%;
+    width: 1300px;
+    overflow:hidden;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: gotham-light;
+    src: url(GOTHAM-LIGHT.TTF);
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(Gotham%20Book.ttf);
+}
+
+@font-face {
+    font-family: gotham-bold;
+    src: url(GOTHAM-BOLD.TTF);
+}
+
+small {
+    font-family: gotham-light;
+    margin-bottom: 20px;
+}
+
+#name p {
+    color: white;
+    font-family: gotham;
+    bottom: 0px;
+}
+
+#sidebar {
+    height: 825px;;
+    width: 470px;
+    background-color:;
+    display: inline-block;
+    
+}
+
+#content {
+    display: block;
+    background-color:;
+    width: 100%;
+    height: 72.4%;
+    overflow: hidden;
+    position: static;
+}
+
+#navbar {
+    width: 100%;
+    position: static;
+    height: 39.8%;
+    display:;
+}
+
+#navbar tbody tr td {
+    text-align: center;
+    font-family: gotham;
+    font-size: 20px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+p, h1, h2, h3, h4, a {
+    margin: 0px;
+}
+
+#content {
+    border: 1px solid black;
+    background-color:black;
+}
+
+#navbar {
+    height: 200px;
+    background-color: black;
+}
+
+#content-table tbody tr td {
+    width: 490px;
+    height: 600px;
+    border: 0px solid black;
+    background-color:;
+    vertical-align: top;
+    text-align: left;
+    padding: 0px 12px 0px 0px;
+    border: collapse;
+}
+
+#content-table tbody tr td p {
+    font-family: gotham-light;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-top: 0px;
+    line-height: 20px;
+    margin-left: 0px;
+}
+
+#content-table tbody tr td h1 {
+    font-family: gotham;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    height: 40;
+    overflow: hidden;
+    padding: 0px;
+    display: block;
+    line-height: 52px;
+}
+
+#nb-earth {
+    background-color: forestgreen;
+}
+
+#nb-sun {
+    background-color: orange;
+}
+
+#nb-mercury {
+    background-color: gray; 
+}
+
+#nb-venus {
+    background-color: darksalmon;
+}
+
+#nb-mars {
+    background-color: saddlebrown;
+}
+
+#nb-vesta, #nb-ceres, #nb-overview {
+    background-color: azure;
+}
+
+#nb-jupiter {
+    background-color: chocolate;
+}
+
+#nb-saturn {
+    background-color: bisque;
+}
+
+#nb-uranus {
+    background-color: aquamarine;
+}
+
+#nb-neptune {
+    background-color: dodgerblue;
+}
+
+#nb-halleys {
+    background-color: cyan;
+}
+
+#nb-ikeya {
+    background-color: whitesmoke;
+}
+
+#sb-overview h1{
+    margin: 2px;
+    text-decoration: underline;
+}
+
+#sb-sun {
+    background-color: #C77B2C ;
+}
+
+#sb-sun img {
+    border-top: 3px solid black;
+}
+
+#sb-venus {
+    background-color: #000;
+    color: white;
+}
+
+#sb-venus img {
+    border-top: 2px solid white;
+}
+
+#sb-mercury {
+    background-color: #000;
+    color: white;
+}
+
+#sb-mercury img {
+    border-top: 2px solid white;
+}
+
+#sb-mercury p {
+    margin-top: 20px;
+}
+
+#sb-mars {
+    background-color: #000;
+    color: white;
+}
+
+#sb-mars img {
+    border-top: 2px solid white;
+}
+
+#sb-vesta {
+    background-color: #000;
+    color: white;
+}
+
+#sb-vesta img {
+    border-top: 2px solid white;
+}
+
+#sb-ceres {
+    background-color: #000;
+    color: white;
+}
+
+#sb-ceres img {
+    border-top: 2px solid white;
+}
+
+#sb-jupiter,#sb-saturn,#sb-uranus,#sb-neptune, #sb-halleys, #sb-ikeya, #sb-overview, #sb-earth {
+    background-color: #000;
+    color: white;
+}
+
+#sb-jupiter img, #sb-saturn img,#sb-uranus img,#sb-neptune img, #sb-halleys img,#sb-ikeya img {
+    border-top: 2px solid white;
+}
+
+#earth2-orbit-container {
+    background-color:;
+    height: 70px;
+    width: 70px;
+    position: static;
+    display: block;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+#earth2-orbit {
+    background-color:;
+    height: 180px;
+    width: 180px;
+    position: static;
+    display: block;
+    -webkit-animation: spin-ccw 3s linear infinite;
+     -moz-animation: spin-ccw 3s linear infinite;
+      -ms-animation: spin-ccw 3s linear infinite;
+       -o-animation: spin-ccw 3s linear infinite;
+          animation: spin-ccw 3s linear infinite;
+}
+
+#earth2 {
+    height: 40px;
+    width: 40px;
+    background-color: forestgreen;
+    margin: 70px 0px 0px 70px;
+}
+
+#moon {
+    height: 10px;
+    width: 10px;
+    background-color: lightgray;
+    position: absolute;
+    display: block;
+    margin-top:;
+}
